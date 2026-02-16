@@ -4,3 +4,14 @@ obj/
 *.user
 *.suo
 *.log
+
+# CMake build output
+_build/
+build/
+*/_build/
+*/build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.sln
+*.vcxproj*
