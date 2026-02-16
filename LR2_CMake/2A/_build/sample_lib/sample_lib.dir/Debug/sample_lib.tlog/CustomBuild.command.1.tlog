@@ -1,0 +1,10 @@
+^C:\USERS\1N2A3\DOCUMENTS\ISРПО_GITLABS\LR2_CMAKE\2A\SAMPLE_LIB\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/1n2a3/Documents/ISРПО_GitLabs/LR2_CMake/2A -BC:/Users/1n2a3/Documents/ISРПО_GitLabs/LR2_CMake/2A/_build --check-stamp-file C:/Users/1n2a3/Documents/ISРПО_GitLabs/LR2_CMake/2A/_build/sample_lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
